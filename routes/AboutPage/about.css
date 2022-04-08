@@ -1,0 +1,68 @@
+.about {
+  height: 100%;
+  background: #186f95;
+  color: #ffffff;
+  padding: 50px;
+  overflow-x: hidden;
+}
+.about h1 {
+  font-size: 36px;
+  font-weight: 600;
+}
+.about p {
+  font-size: 18px;
+}
+.about .about-cont {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 120px;
+}
+.about-image .image-cont {
+  background: #186f95;
+  background: url(../../images/mandoc.jpg);
+  z-index: 1;
+  width: 410px;
+  height: 500px;
+  opacity: 0.5;
+}
+.about-note {
+  width: 750px;
+}
+.numbers {
+  display: flex;
+  justify-content: space-between;
+}
+@media screen and (max-width: 1024px){
+  .about .about-cont{
+    flex-direction: column;
+  }
+  .about-note{
+    width: 700px;
+  }
+  .numbers{
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 500px){
+  .about{
+    padding: 30px;
+  }
+  .about-image .image-cont{
+    width: 360px;
+  }
+  .about-note{
+    width: 350px;
+  }
+}
+@media screen and (max-width: 380px){
+  .about{
+    padding: 20px;
+  }
+  .about-image .image-cont{
+    margin-left: -12px;
+  }
+  .one h1{
+    font-size: 30px;
+    margin-bottom: 15px;
+  }
+}

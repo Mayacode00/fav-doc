@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/static/css/main.e850cf3f.css",
+    "main.js": "/static/js/main.a30ab3b3.js",
+    "static/media/video.mp4": "/static/media/video.b5491097ec3bca2b95c3.mp4",
+    "static/media/Rectangle24.jpg": "/static/media/Rectangle24.491a649afe5167480593.jpg",
+    "static/media/docs.jpg": "/static/media/docs.3983cd55e59680810b93.jpg",
+    "static/media/mandoc.jpg": "/static/media/mandoc.15916b9b4ff8f54c2c91.jpg",
+    "static/media/hand.png": "/static/media/hand.87c87d300951676730ce.png",
+    "static/media/mediamodifier.png": "/static/media/mediamodifier.8b3e3b878fb190ccb1a4.png",
+    "index.html": "/index.html",
+    "main.e850cf3f.css.map": "/static/css/main.e850cf3f.css.map",
+    "main.a30ab3b3.js.map": "/static/js/main.a30ab3b3.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e850cf3f.css",
+    "static/js/main.a30ab3b3.js"
+  ]
+}

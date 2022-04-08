@@ -1,0 +1,210 @@
+.service-page {
+  background: #ffffff;
+  width: 100vw;
+}
+.background-logo {
+  height: 700px;
+  opacity: 10%;
+  position: absolute;
+  left: 25%;
+  top: 900px;
+}
+.service {
+  text-align: center;
+  background: none;
+  padding: 100px 50px;
+}
+.overview,
+.overview-two {
+  display: flex;
+  justify-content: space-between;
+  margin: 80px 0;
+}
+.service h1 {
+  color: #186895;
+  font-weight: 600;
+}
+.service h4 {
+  font-size: 20px;
+  font-weight: 600;
+}
+.service p {
+  line-height: 30px;
+  font-size: 18px;
+}
+.overview .professional,
+.overview-two .consultation {
+  width: 390px;
+}
+.booking {
+  background: rgba(131, 203, 234, 0.212);
+  height: 108px;
+  width: 108px;
+  padding: 25px 30px;
+  border-radius: 30px;
+  margin: 20px auto;
+}
+.service button {
+  background: #186895;
+  width: 220px;
+  height: 60px;
+  font-family: inherit;
+  color: #ffffff;
+  border: none;
+  border-radius: 10px;
+  font-size: 20px;
+  cursor: pointer;
+  margin-bottom: 90px;
+}
+.diff-h1 {
+  width: 1000px;
+  margin: 0 auto;
+}
+.download {
+  display: flex;
+  margin: 30px 70px;
+  justify-content: space-between;
+}
+.download .hand {
+  transform: translateY(250px);
+  height: 500px;
+}
+.download .store {
+  width: 500px;
+  text-align: left;
+}
+.store h1 {
+  font-size: 36px;
+  line-height: 50px;
+}
+.phone-store {
+  display: flex;
+  width: 400px;
+  justify-content: space-between;
+  transform: translateY(70px);
+}
+.store .media {
+  transform: translateX(-130px);
+}
+.appointment {
+  color: #d40000;
+  margin-top: 150px;
+}
+.appointment .one {
+  display: flex;
+  justify-content: space-between;
+  width: 330px;
+  margin-bottom: 100px;
+}
+.one p {
+  text-align: left;
+  width: 280px;
+  transform: translateY(-15px);
+  font-size: 24px;
+}
+.one .bullet {
+  background: #d40000;
+  height: 20px;
+  width: 20px;
+  border-radius: 20px;
+}
+.service button:hover {
+  background: #84a9be;
+  transition: all 0.6s ease-in;
+  box-shadow: 7px 9px 28px -5px rgba(36, 30, 30, 0.5);
+  -webkit-box-shadow: 7px 9px 28px -5px rgba(36, 30, 30, 0.5);
+  -moz-box-shadow: 7px 9px 28px -5px rgba(36, 30, 30, 0.5);
+}
+@media screen and (max-width: 1025px) {
+  .service p {
+    font-size: 15px;
+    text-align: left;
+  }
+  .service h4 {
+    text-align: left;
+  }
+  .professional .numbers {
+    margin-left: 30%;
+  }
+  .consultation .consults {
+    height: 40px;
+    margin-left: -10px;
+  }
+  .consultation .booking {
+    height: 80px;
+    width: 80px;
+    border-radius: 15px;
+    margin-left: 10%;
+  }
+  .background-logo {
+    left: 5%;
+    top: 300px;
+  }
+  .diff-h1 {
+    width: 700px;
+  }
+  .download {
+    flex-direction: column;
+  }
+  .download .hand {
+    height: 700px;
+  }
+  .appointment {
+    margin-top: 360px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .service-page{
+    overflow-x: hidden;
+  }
+  .overview,
+  .overview-two {
+    flex-direction: column;
+    margin: 30px auto;
+  }
+  .service h1 {
+    font-size: 36px;
+    line-height: 50px;
+  }
+  .overview .professional,
+  .overview-two .consultation {
+    margin: 20px 0;
+    width: 300px;
+  }
+  .professional .numbers {
+    margin: 0 0 20px 30px;
+  }
+  .background-logo {
+    height: 400px;
+    top: 500px;
+  }
+  .diff-h1 {
+    margin-left: -20px;
+    width: 330px;
+    text-align: left;
+  }
+  .download {
+    margin-left: -10px;
+  }
+  .download h1 {
+    width: 360px;
+  }
+  .store .phone-store {
+    width: 330px;
+  }
+  .phone-store .app-store {
+    width: 160px;
+  }
+  .download .hand {
+    height: 400px;
+  }
+}
+@media screen and (max-width: 380px){
+  .background-logo{
+    top: 600px;
+    left: -10px;
+  }
+  .download h1{
+    width: 340px;
+  }
+}
